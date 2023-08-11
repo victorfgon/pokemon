@@ -1,6 +1,8 @@
 # Pokemon API
 Challenge based on the instructions from: [GitHub Repository Link](https://github.com/looqbox/looqbox-backend-challenge)
 
+<img src="diagram.png">
+
 ## Technologies Used:
 - Java 11
 - Spring Boot
@@ -18,7 +20,7 @@ Challenge based on the instructions from: [GitHub Repository Link](https://githu
 - [http://localhost:8081/api/v1/pokemons/highlight](http://localhost:8081/api/v1/pokemons/highlight)
 - [http://localhost:8080/api/v1/pokemons/](http://localhost:8080/api/v1/pokemons/)
 
-## Big-O:
+## Big-Ω:
 The algorithm used is quicksort, as explained in the PokemonService code comments. Quicksort's best-case time complexity is Ω(n log n), indicating that in the best-case scenario, the algorithm's efficiency cannot exceed n log n.
 
 ## Points for Improvement:
