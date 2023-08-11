@@ -13,7 +13,7 @@ Challenge based on the instructions from: [GitHub Repository Link](https://githu
 
 ## How to Run:
 1. Clone this repository.
-2. Run the command `.gradlew.bat clean build` (Windows) within the root folder of both microservices. Then, use `docker-compose up -d` in the main folder to start the containers.
+2. Run the command `.gradlew.bat clean build` (Windows) within the root folder of both microservices. Then, use `docker-compose up -d`(with docker daemon initialized) in the main folder to start the containers.
 3. Access the API's Swagger documentation at http://localhost:8080/swagger-ui/#/ and http://localhost:8081/swagger-ui/#/
 
 ## Endpoints:
